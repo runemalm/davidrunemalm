@@ -23,4 +23,3 @@ Welcome to my personal portfolio. It showcases my skills, projects, and achievem
 ## Live Website
 
 You can view the live version of my portfolio here: [https://davidrunemalm.com](https://davidrunemalm.com)  
-*(Replace with your actual domain)*
