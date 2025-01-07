@@ -138,18 +138,18 @@
 
 <header>
     <h1>David Runemalm</h1>
-    <p>Building simple software solutions</p>
+    <p>Senior Software Engineer</p>
 </header>
 
 <section>
     <h2>About Me</h2>
     <div style="display: flex; align-items: center; gap: 20px;">
         <p>
-            I’m David Runemalm, a software engineer driven by curiosity and a deep desire to understand how systems and processes fundamentally work. 
-            My mission is to turn complex challenges into simple, practical software solutions that empower teams, organizations, and industries to move forward. 
-            By breaking problems down to their core, I strive to create tools that not only work efficiently but also scale seamlessly to meet evolving needs.
+            I’m David Runemalm, a senior software engineer with 13 years of experience in building software-based solutions.
+            My passion for learning how to build scalable, efficient and well structured software has resulted in the creation of numerous open-source projects and applications.
+            Moving forward, I aim to further apply my curiousity, skills and experience to foster team collaboration and enhancing communication to drive impactful results.
         </p>
-        <img src="images/david-square-small.png" alt="David Runemalm" style="width: 120px; height: auto; border-radius: 50%;">
+        <!-- <img src="images/david-square-small.png" alt="David Runemalm" style="width: 120px; height: auto; border-radius: 50%;"> -->
     </div>
 </section>
 
@@ -160,10 +160,11 @@
     <div class="project-hero">
         <div class="project-content">
             <h3>py-dependency-injection</h3>
-            <p>An easy-to-use Python library for implementing dependency injection using dependency container(s). Designed to enhance code modularity, testability, and maintainability in Python applications.</p>
+            <p>A python library for implementing dependency injection in Python applications.</p>
             <ul>
-                <li>✅ Useful for learning the dependency injection patterns.</li>
-                <li>✅ Can be used as standalone or integrated in frameworks.</li>
+                <li>✅ Support for multiple dependency containers.</li>
+                <li>✅ Define the lifetime of your dependencies as transient, scoped, or singleton.</li>
+                <li>✅ Utilize constructor injection, method injection or both.</li>
                 <li>✅ Comprehensive documentation with examples.</li>
             </ul>
             <a href="https://github.com/runemalm/py-dependency-injection" target="_blank">GitHub</a>
@@ -173,31 +174,44 @@
 
     <!-- py-application-framework -->
     <div class="project-hero">
-        <div class="project-content">
-            <h3>py-application-framework</h3>
-            <p>A flexible and extensible application framework for Python, currently in its alpha stage. Inspired by .NET, designed to streamline the development of robust Python applications.</p>
-            <ul>
+        <div class="project-content-wrapper">
+            <div class="project-text-content">
+                <h3>py-application-framework</h3>
+                <p>A flexible and extensible application framework for Python, currently in its alpha stage. Inspired by .NET patterns, designed to streamline the development of robust, clean and well-structured python applications.</p>
+                <ul>
                 <li>✅ Employs standard design patterns for intuitive development.</li>
-                <li>✅ Focuses on simplicity, readability, and maintainability.</li>
-                <li>✅ Highly extensible to adapt to evolving requirements.</li>
+                <li>✅ Focuses on simplicity, readability and clear structure.</li>
+                <li>✅ Suitable as base framework for more specialized frameworks.</li>
             </ul>
             <a href="https://github.com/runemalm/py-application-framework" target="_blank">GitHub</a>
             <a href="https://py-application-framework.readthedocs.io/en/latest/" target="_blank">Documentation</a>
+            </div>
+
+            <div class="project-image-wrapper">
+                <img src="images/host_supervisor_service.png" alt="Open Banking Demo" class="project-image-right">
+            </div>
         </div>
     </div>
 
     <!-- OpenDDD.NET -->
     <div class="project-hero">
-        <div class="project-content">
-            <h3>OpenDDD.NET</h3>
-            <p>An open-source Domain-Driven Design (DDD) framework for .NET, currently in its alpha phase. This project aims to simplify the development of complex, scalable, and maintainable applications by providing core DDD building blocks and tools.</p>
-            <ul>
-                <li>✅ Implements key DDD principles such as aggregates, entities, and value objects.</li>
-                <li>✅ Focused on creating a robust, community-driven framework.</li>
-                <li>✅ Designed to streamline workflows for .NET developers building enterprise applications.</li>
-            </ul>
-            <a href="https://github.com/runemalm/openddd.net" target="_blank">GitHub</a>
-            <a href="https://opendddnet.readthedocs.io/en/latest/" target="_blank">Documentation</a>
+        <div class="project-content-wrapper">
+            <div class="project-text-content">
+                <h3>OpenDDD.NET</h3>
+                <p>An open-source toolchain/framework for .NET, currently in its alpha stage. This project aims to support the development of applications by providing core DDD building blocks, tools and strategies.</p>
+                <ul>
+                    <li>✅ Implements key DDD principles such as aggregates, entities, and value objects.</li>
+                    <li>✅ Can be used in it's current stage as toolchain to pick and choose parts, such as repositories and event publishing components.</li>
+                    <li>✅ Focused on establishing a streamlined framework that enables building software using best-practice DDD principles.</li>
+                    
+                </ul>
+                <a href="https://github.com/runemalm/openddd.net" target="_blank">GitHub</a>
+                <a href="https://opendddnet.readthedocs.io/en/latest/" target="_blank">Documentation</a>
+            </div>
+
+            <div class="project-image-wrapper">
+                <img src="images/ddd-diagram.png" alt="DDD diagram" class="project-image-right">
+            </div>
         </div>
     </div>
 
@@ -205,11 +219,11 @@
     <div class="project-hero">
         <div class="project-content-wrapper">
             <div class="project-text-content">
-                <h3>Open Banking POC</h3>
-                <p>A proof-of-concept project showcasing scalable Open Banking solutions. It features a backend monolith ready for microservices and a drop-in JavaScript client for seamless integration.</p>
+                <h3>Open Banking Application</h3>
+                <p>A proof-of-concept project showcasing an Open Banking integration solution. It features a backend and a drop-in JavaScript client for seamless integration.</p>
                 <ul>
-                    <li>✅ Scalable architecture, ready for microservices.</li>
-                    <li>✅ Simple class-based approach for adding bank integrations.</li>
+                    <li>✅ Scalable architecture, currently in a logically separated monolith.</li>
+                    <li>✅ Simple single-subclassing approach for adding bank integrations.</li>
                     <li>✅ Plug-and-play JavaScript client for web applications.</li>
                 </ul>
                 <a href="https://github.com/runemalm/open-banking-demo" target="_blank">GitHub</a>
@@ -217,7 +231,7 @@
             </div>
 
             <div class="project-image-wrapper">
-                <img src="images/openbanking-client.png" alt="Open Banking Demo" class="project-image-right">
+                <img src="images/openbanking-client.png" alt="Open Banking JS Client" class="project-image-right">
             </div>
         </div>
     </div>
