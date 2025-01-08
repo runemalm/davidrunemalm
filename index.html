@@ -134,22 +134,12 @@
 
         /* Adjust for small screen */
 
-        .flex-column-on-small-screens {
-
-        }
-
-        .hide-on-small-screens {
-
-        }
-
         @media (max-width: 768px) {
-            .flex-column-on-small-screens {
-                flex-direction: column;
+            .project-text-content {
+                max-width: 100%;
             }
-        }
 
-        @media (max-width: 768px) {
-            .hide-on-small-screens {
+            .project-image-wrapper {
                 display: none;
             }
         }
@@ -196,7 +186,7 @@
 
     <!-- py-application-framework -->
     <div class="project-hero">
-        <div class="project-content-wrapper flex-column-on-small-screens">
+        <div class="project-content-wrapper">
             <div class="project-text-content">
                 <h3>py-application-framework</h3>
                 <p>A flexible and extensible application framework for Python, currently in its alpha stage. Inspired by .NET patterns, designed to streamline the development of robust, clean and well-structured python applications.</p>
@@ -209,7 +199,7 @@
             <a href="https://py-application-framework.readthedocs.io/en/latest/" target="_blank">Documentation</a>
             </div>
 
-            <div class="project-image-wrapper hide-on-small-screens">
+            <div class="project-image-wrapper">
                 <img src="images/host_supervisor_service.png" alt="Open Banking Demo" class="project-image-right">
             </div>
         </div>
@@ -217,7 +207,7 @@
 
     <!-- OpenDDD.NET -->
     <div class="project-hero">
-        <div class="project-content-wrapper flex-column-on-small-screens">
+        <div class="project-content-wrapper">
             <div class="project-text-content">
                 <h3>OpenDDD.NET</h3>
                 <p>An open-source toolchain/framework for .NET, currently in its alpha stage. This project aims to support the development of applications by providing core DDD building blocks, tools and strategies.</p>
@@ -231,7 +221,7 @@
                 <a href="https://opendddnet.readthedocs.io/en/latest/" target="_blank">Documentation</a>
             </div>
 
-            <div class="project-image-wrapper hide-on-small-screens">
+            <div class="project-image-wrapper">
                 <img src="images/ddd-diagram.png" alt="DDD diagram" class="project-image-right">
             </div>
         </div>
@@ -239,7 +229,7 @@
 
     <!-- Open Banking Demo -->
     <div class="project-hero">
-        <div class="project-content-wrapper flex-column-on-small-screens">
+        <div class="project-content-wrapper">
             <div class="project-text-content">
                 <h3>Open Banking POC</h3>
                 <p>A proof-of-concept project showcasing an Open Banking integration solution. It features a backend and a drop-in JavaScript client for seamless integration.</p>
@@ -252,7 +242,7 @@
                 <a href="https://demo.openbanking.io" target="_blank">Demo</a>
             </div>
 
-            <div class="project-image-wrapper hide-on-small-screens">
+            <div class="project-image-wrapper">
                 <img src="images/openbanking-client.png" alt="Open Banking JS Client" class="project-image-right">
             </div>
         </div>
