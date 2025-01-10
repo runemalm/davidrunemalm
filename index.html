@@ -159,7 +159,7 @@
         <p>
             I’m David Runemalm, a senior software engineer with 13 years of experience in building software-based solutions.
             My passion for learning how to build scalable, efficient and well structured software has resulted in the creation of numerous open-source projects and applications.
-            Moving forward, I aim to further apply my curiousity, skills and experience to foster team collaboration and enhancing communication to drive impactful results.
+            My work experience ranges from co-founding a startup to working in different employments in some kind of software development role. I thrive when I get to concentrate on a challenging problem to come up with a simple solution.
         </p>
         <img src="images/david-square-small.png" alt="David Runemalm" style="width: 120px; height: auto; border-radius: 50%;">
     </div>
@@ -172,11 +172,13 @@
     <div class="project-hero">
         <div class="project-content">
             <h3>py-dependency-injection</h3>
-            <p>A python library for implementing dependency injection in python applications.</p>
+            <p>
+                A dependency injection library for Python. The motivation behind this project was twofold. First, I gained practical experience developing this library with comprehensive documentation and making it available to the public as an open-source project. Second, by implementing a fundamental concept prevalent in many software development frameworks, (dependency injection) I got the opportunity to learn the concept in depth. This knowledge will be very valuable working with dependency injection in the rest of my career.
+            </p>
             <ul>
-                <li>✅ Multiple dependency containers support.</li>
-                <li>✅ Supports dependency lifetimes as transient, scoped, or singleton.</li>
-                <li>✅ Constructor injection and method injection support.</li>
+                <li>✅ Multiple dependency containers supported.</li>
+                <li>✅ Transient, scoped, and singleton dependency lifetimes.</li>
+                <li>✅ Constructor and method injection.</li>
                 <li>✅ Comprehensive documentation with examples.</li>
             </ul>
             <a href="https://github.com/runemalm/py-dependency-injection" target="_blank">GitHub</a>
@@ -185,15 +187,19 @@
     </div>
 
     <!-- py-application-framework -->
-    <div class="project-hero">
+    <!-- <div class="project-hero">
         <div class="project-content-wrapper">
             <div class="project-text-content">
                 <h3>py-application-framework</h3>
-                <p>An application framework for python development. Currently in alpha stage. Designed to streamline the development of robust, clean and well-structured python applications.</p>
+                <p>
+                    The main reason behind this project was to combine the readability you get from using Python, with the sophisticated abstractions and patterns of .NET.
+                    I have used Django with Python previously and while I think it does a good job, I wanted to apply the builder pattern, configuration system and host-application concept of the C#/.NET world. The result is this framework which is currently in ongoing development. If you want to join me in my mission to create a sophisticated application framework in readable Python code then feel free to reach out!
+                </p>
                 <ul>
-                <li>✅ Employs standard design patterns.</li>
-                <li>✅ Multi-application docker container support.</li>
-                <li>✅ Inspired by .NET to create an extensible framework.</li>
+                <li>✅ Use the builder pattern to setup host/application(s).</li>
+                <li>✅ Sophisticated configuration system for multiple environments.</li>
+                <li>✅ Start small with monolith, break out the applications for scale.</li>
+                <li>✅ Dependency injection support.</li>
             </ul>
             <a href="https://github.com/runemalm/py-application-framework" target="_blank">GitHub</a>
             <a href="https://py-application-framework.readthedocs.io/en/latest/" target="_blank">Documentation</a>
@@ -203,18 +209,20 @@
                 <img src="images/host_supervisor_service.png" alt="Open Banking Demo" class="project-image-right">
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- OpenDDD.NET -->
     <div class="project-hero">
         <div class="project-content-wrapper">
             <div class="project-text-content">
                 <h3>OpenDDD.NET</h3>
-                <p>An open-source ddd library for .net development. Currently in alpha stage with support for basic ddd building blocks and principles.</p>
+                <p>
+                    Several years ago now, I came across the concept of Domain-Driven Design. I was heavily inspired, since it provides a holistic approach to software development. By focusing on the domain model, complex domains can be understood and implemented in software. This often leads to simple solutions that are easy to understand, maintain and scale. As part of my learning, and by the personal need for a DDD framework to aid in development efforts moving forward in my career, I started this open-source project. The focus of this project is to implement a roadmap of DDD building blocks piece by piece until reaching a framework that can be used to fully implement software using key DDD principles and building blocks.
+                </p>
                 <ul>
-                    <li>✅ Implements key DDD principles.</li>
-                    <li>✅ Support for aggregates, entities, value objects, etc.</li>
-                    <li>✅ Focused on establishing a streamlined framework.</li>
+                    <li>✅ Following key DDD principles and building blocks.</li>
+                    <li>✅ Clear roadmap to a comprehensive framwork.</li>
+                    <li>✅ Useful tools such as repository, entity, etc.</li>
                     
                 </ul>
                 <a href="https://github.com/runemalm/openddd.net" target="_blank">GitHub</a>
@@ -231,11 +239,13 @@
     <div class="project-hero">
         <div class="project-content-wrapper">
             <div class="project-text-content">
-                <h3>Open Banking POC</h3>
-                <p>A open banking proof-of-concept for integrating with banks to enable account information- and payment initiation services.</p>
+                <h3>Open Banking Proof-of-Concept Client</h3>
+                <p>
+                    This proof-of-concept client for open banking services was inspired by my experience working in the fintech industry. It’s a drop-in client for websites, enabling seamless bank integrations via a backend. The architecture allows scalability, with developers able to work independently on new bank integrations using simple subclassing techniques. While built as a monolith, it's designed with scalability in mind, allowing for scaling by breaking out bank integrations into adapter microservices when need arises.
+                </p>
                 <ul>
                     <li>✅ Simple monolithic architecture.</li>
-                    <li>✅ Designed for scaling.</li>
+                    <li>✅ Designed for scalability.</li>
                     <li>✅ One developer per bank integration.</li>
                     <li>✅ Javascript SDK for simple website integration.</li>
                 </ul>
